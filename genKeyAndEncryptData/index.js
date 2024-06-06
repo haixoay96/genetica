@@ -106,6 +106,6 @@ console.log("isDataGen", dataGen === DeCodeData(encode, privateKey))
 
 const encryptedPrivateKey = encryptPrivateKey(privateKey, secretKey)
 
-// upload and store publicKey,encryptedPrivateKey, secretKey to server
+// upload and store publicKey,encryptedPrivateKey to server
 
 console.log("isPrivateKey", decryptPrivateKey(encryptedPrivateKey, secretKey) === privateKey)
