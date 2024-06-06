@@ -96,6 +96,7 @@ function GenKeyPair(){
 const {publicKey, privateKey}= GenKeyPair()
 const secretKey =  GenRandomSecretKey()
 
+console.log("secretKey", secretKey)
 
 const dataGen = "testing"
 
